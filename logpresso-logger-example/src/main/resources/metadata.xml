@@ -2,5 +2,6 @@
 	xsi:schemaLocation="org.apache.felix.ipojo http://felix.apache.org/ipojo/schemas/CURRENT/core.xsd"
 	xmlns="org.apache.felix.ipojo">
 	<instance component="random-logger-factory" />
+	<instance component="file-layout-parser-factory" />
 </ipojo>
 
