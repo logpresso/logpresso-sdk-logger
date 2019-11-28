@@ -7,6 +7,15 @@
 이 저장소는 아래와 같이 구성됩니다:
 * **logpresso-logger-example**: 랜덤 값을 수집하는 예제 코드를 통해 기본적인 수집기 구조를 설명합니다.
 
+## 의존성 업데이트
+
+사용 전 다음 명령을 수행하여 관련 모듈을 최신화한 다음에 빌드를 시도하십시오.
+
+```
+mvn versions:use-latest-releases -Dincludes=org.araqne:*,org.logpresso:*
+```
+
+
 ## 기본 구조
 로그프레소의 수집기는 araqne-log-api 번들에 정의된 LoggerFactory와 Logger 인터페이스를 구현합니다. LoggerFactory 인터페이스는 수집기를 구성하는데 필요한 메타데이터를 정의하며, Logger 인터페이스는 실질적인 수집 동작을 정의합니다. 개발자는 각각 AbstractLoggerFactory 클래스와 AbstractLogger 클래스를 상속하여 필수적인 부분만 구현하면 됩니다.
 

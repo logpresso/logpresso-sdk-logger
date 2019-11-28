@@ -3,3 +3,4 @@
 .settings
 target
 git.properties
+*.versionsBackup

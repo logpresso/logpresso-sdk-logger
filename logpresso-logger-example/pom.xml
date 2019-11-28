@@ -56,7 +56,7 @@
 		<dependency>
 			<groupId>org.araqne</groupId>
 			<artifactId>araqne-log-api</artifactId>
-			<version>3.10.4</version>
+			<version>3.12.7</version>
 		</dependency>
 	</dependencies>
 </project>
